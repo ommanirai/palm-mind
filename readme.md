@@ -1,10 +1,6 @@
 # PalmMind
 
-PalmMind is a full-stack web application built with:
-
-- Frontend: React (Vite)
-- Backend: Node.js + Express
-- Database: MongoDB
+PalmMind is a realtime public chat application built with the MERN stack and Socket.IO. Users can register, login, and send messages in realtime. Messages are stored in MongoDB and instantly broadcasted to all connected users using io.emit(), making it a global/public chat room. The frontend listens to socket events and updates the chat UI live without refreshing the page.
 
 ---
 
